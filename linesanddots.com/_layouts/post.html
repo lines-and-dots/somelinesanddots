@@ -1,0 +1,14 @@
+{% include header.html %}
+
+<div class="row-fluid">
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="border: 3px solid" style="border-color: rgba(20,20,20,0.95)" >
+    {% include sidebar.html %}
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12" style="border: 3px solid" style="border-color: rgba(20,20,20,0.95)" >
+    <h1>{{ page.title }}</h1>
+    <p class="muted">{{ page.date | date_to_long_string }}</p>
+    {{ content }}
+  </div>
+</div>
+
+{% include footer.html %}

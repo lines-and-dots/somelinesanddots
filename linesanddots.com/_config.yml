@@ -1,0 +1,10 @@
+name: "Lines and Dots"
+description: "To Appreciate That Which Might Not Have Been Appreciated."
+
+url: "http://somelinesanddots.com"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+pygments: true
