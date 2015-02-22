@@ -8,7 +8,7 @@ layout: default
 	<div class="row-fluid">
 <ul>
   {% for post in site.posts limit: 8 %}
-    <li class="conatiner" class="row-fluid">{{ post.content | truncatewords: 35}} <a href="{{ post.url }}">Read More</a></li>
+    {{ post.content | truncatewords: 35}} <a href="{{ post.url }}">Read More</a>
   {% endfor %}
 </ul>
 </div>
