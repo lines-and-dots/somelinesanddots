@@ -7,6 +7,6 @@ layout: default
 
 <ul>
   {% for post in site.posts limit: 8 %}
-    <li>{{ post.content | truncatewords: 35}} <a href="{{ post.url }}">Read More</a></li>
+    <li><div class="conatiner">{{ post.content | truncatewords: 35}} </div><a href="{{ post.url }}">Read More</a></li>
   {% endfor %}
 </ul>
